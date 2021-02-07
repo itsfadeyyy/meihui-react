@@ -25,7 +25,10 @@ const Modal = ({ modalContent, handleModalClose }) => {
                   <div key={i} className='modal-extrabox'>
                     <img
                       src={item.imgSrc} className="modal-extra-img"/>
-                    <span>{item.desc}</span>
+                      <div className="modal-extra-desc">
+                      <span>{item.desc}</span>
+                      </div>
+                    
                   </div>
                 );
               })}

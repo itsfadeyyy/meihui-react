@@ -18,7 +18,7 @@ import Footer from "./components/Footer";
 import Modal from "./components/Modal";
 import { slide1, slide2, slide3 } from "./ImageLink";
 import {FaPaintBrush, FaLightbulb,FaCode} from "react-icons/fa";
-import { tw1, tw2 } from "./ImageLink";
+import { tw1, tw2, in1, in2, in3, cor1, cor2, cor3 } from "./ImageLink";
 
 SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
 const App = () => {
@@ -83,15 +83,16 @@ const App = () => {
 
   const [slider] = useState([
     {
-      title: "Trouble Boy Movie",
-      description: "Poster and mock ups",
+      title: "Trouble Boy Movie Poster",
+      description: "Poster and social media mock ups",
       modalBanner: tw1,
       modalDesc:
-        "Long 7 long long long lopng long lngpwopwedjiq2hn ofjoweihfbnow;kfnw;",
+        "I chose Horror as the genre for the movie poster. Edited the given asset to fit the horror theme. Softwares such as Adobe Illustrator and Adobe Photoshop are used.",
+        
       extraPic: [
         {
           imgSrc: tw2,
-          desc: "First desc",
+          desc: "Social media mock ups",
         },
       
  
@@ -99,31 +100,42 @@ const App = () => {
       url: tw1,
     },
     {
-      title: "Login authentication",
-      description: "User Authentication & Encryption",
-      modalBanner: slide1,
+      title: "Interests! App",
+      description: "Microsite and Web Application",
+      modalBanner: in1,
       modalDesc:
         "Short 7 long long long lopng long lngpwopwedjiq2hn ofjoweihfbnow;kfnw;",
       extraPic: [
         {
-          imgSrc: slide2,
+          imgSrc: in2,
           desc: "one desc",
         },
         {
-          imgSrc: slide3,
+          imgSrc: in3,
           desc: "two desc",
         },
-        {
-          imgSrc: slide1,
-          desc: "three desc",
-        },
+        
       ],
-      url: slide2,
+      url: in1,
     },
     {
       title: "Product landing page",
       description: "Face mask, eyelips, lip stick etc..",
-      url: slide3,
+      modalBanner: cor1,
+      modalDesc:
+        "Short 7 long long long lopng long lngpwopwedjiq2hn ofjoweihfbnow;kfnw;",
+      extraPic: [
+        {
+          imgSrc: cor2,
+          desc: "one desc",
+        },
+        {
+          imgSrc: cor3,
+          desc: "two desc",
+        },
+        
+      ],
+      url: cor1,
     },
     {
       title: "Weather App",
