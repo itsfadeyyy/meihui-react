@@ -84,7 +84,7 @@ const App = () => {
   const [slider] = useState([
     {
       title: "Trouble Boy Movie",
-      description: "Creating poster and mock ups",
+      description: "Poster and mock ups",
       modalBanner: tw1,
       modalDesc:
         "Long 7 long long long lopng long lngpwopwedjiq2hn ofjoweihfbnow;kfnw;",
