@@ -18,6 +18,7 @@ import Footer from "./components/Footer";
 import Modal from "./components/Modal";
 import { slide1, slide2, slide3 } from "./ImageLink";
 import {FaPaintBrush, FaLightbulb,FaCode} from "react-icons/fa";
+import { tw1, tw2 } from "./ImageLink";
 
 SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
 const App = () => {
@@ -62,19 +63,19 @@ const App = () => {
     },
     {
       id: 3,
-      name: "JavaScript",
+      name: "UX Design",
       range: "80%",
       class: "js",
     },
     {
       id: 4,
-      name: "PHP",
+      name: "React/Javascript",
       range: "50%",
       class: "php",
     },
     {
       id: 5,
-      name: "MySQL",
+      name: "Adobe Softwares",
       range: "70%",
       class: "mysql",
     },
@@ -82,26 +83,20 @@ const App = () => {
 
   const [slider] = useState([
     {
-      title: "One-page layout",
-      description: "One page contain all the infotmation you need",
-      modalBanner: slide1,
+      title: "Trouble Boy Movie",
+      description: "Creating poster and mock ups",
+      modalBanner: tw1,
       modalDesc:
         "Long 7 long long long lopng long lngpwopwedjiq2hn ofjoweihfbnow;kfnw;",
       extraPic: [
         {
-          imgSrc: slide2,
+          imgSrc: tw2,
           desc: "First desc",
         },
-        {
-          imgSrc: slide3,
-          desc: "2 desc",
-        },
-        {
-          imgSrc: slide1,
-          desc: "3 desc",
-        },
+      
+ 
       ],
-      url: slide1,
+      url: tw1,
     },
     {
       title: "Login authentication",

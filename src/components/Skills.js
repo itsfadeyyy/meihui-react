@@ -9,14 +9,10 @@ const Skills = ({ data }) => {
           <div className="column left">
             <div className="text">My creative skills & experiences.</div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos, ratione error est recusandae consequatur, iusto illum
-              deleniti quidem impedit, quos quaerat quis minima sequi.
-              Cupiditate recusandae laudantium esse, harum animi aspernatur
-              quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem
-              illum. Ad delectus natus aut hic explicabo minus quod.
+              I have studied Nitec in Social Media & Web Development at ITE for 2 years, after ITE graduation I took a Diploma course in Interaction Design
+              at Nanyang Polytechnic for 3 years. I am looking forward to further improve my skills in the future.
             </p>
-            <a href="#">Read more</a>
+  
           </div>
           <div className="column right">
             {data.map((skill) => {

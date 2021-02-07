@@ -20,9 +20,9 @@ const Modal = ({ modalContent, handleModalClose }) => {
             </div>
             <div className='modal-extra'>
             {modalContent.extraPic &&
-              modalContent.extraPic.map((item) => {
+              modalContent.extraPic.map((item,i) => {
                 return (
-                  <div className='modal-extrabox'>
+                  <div key={i} className='modal-extrabox'>
                     <img
                       src={item.imgSrc} className="modal-extra-img"/>
                     <span>{item.desc}</span>

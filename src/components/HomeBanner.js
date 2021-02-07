@@ -17,7 +17,7 @@ const HomeBanner = () => {
             loop
           />
           </div>
-          <a href="#">Hire me</a>
+          <a href="#about">Read more</a>
         </div>
       </div>
     </section>

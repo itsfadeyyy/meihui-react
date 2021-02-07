@@ -10,9 +10,7 @@ const ContactMe = () => {
           <div className="column left">
             <div className="text">Get in Touch</div>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos harum corporis fuga corrupti. Doloribus quis soluta
-              nesciunt veritatis vitae nobis?
+              If you have any enquiries that wants to clarify with me, you can contact me at my information listed down below.
             </p>
             <div className="icons">
               <div className="row">
