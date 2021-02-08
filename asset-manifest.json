@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.845f25d1.chunk.css",
-    "main.js": "/static/js/main.72521957.chunk.js",
-    "main.js.map": "/static/js/main.72521957.chunk.js.map",
+    "main.js": "/static/js/main.94413046.chunk.js",
+    "main.js.map": "/static/js/main.94413046.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b0a861f3.js",
     "runtime-main.js.map": "/static/js/runtime-main.b0a861f3.js.map",
     "static/css/2.fd14a957.chunk.css": "/static/css/2.fd14a957.chunk.css",
@@ -14,17 +14,19 @@
     "static/css/2.fd14a957.chunk.css.map": "/static/css/2.fd14a957.chunk.css.map",
     "static/css/main.845f25d1.chunk.css.map": "/static/css/main.845f25d1.chunk.css.map",
     "static/js/2.6e78c685.chunk.js.LICENSE.txt": "/static/js/2.6e78c685.chunk.js.LICENSE.txt",
+    "static/media/3Dbed.fef35fff.jpg": "/static/media/3Dbed.fef35fff.jpg",
     "static/media/MeihuiResume.9e0e6aa7.pdf": "/static/media/MeihuiResume.9e0e6aa7.pdf",
     "static/media/cortina1.e1311009.PNG": "/static/media/cortina1.e1311009.PNG",
     "static/media/cortina2.f5084fef.jpg": "/static/media/cortina2.f5084fef.jpg",
     "static/media/cortina3.946e88cf.jpg": "/static/media/cortina3.946e88cf.jpg",
+    "static/media/egg.70e0c1c4.PNG": "/static/media/egg.70e0c1c4.PNG",
     "static/media/App.scss": "/static/media/homepic.c631a7e3.jpg",
     "static/media/interests1.21a1bb76.PNG": "/static/media/interests1.21a1bb76.PNG",
     "static/media/interests2.b75bbb36.jpg": "/static/media/interests2.b75bbb36.jpg",
     "static/media/interests3.69deb23a.jpg": "/static/media/interests3.69deb23a.jpg",
-    "static/media/profile-1.8e6e3af9.jpeg": "/static/media/profile-1.8e6e3af9.jpeg",
-    "static/media/profile-4.a63d8cef.jpeg": "/static/media/profile-4.a63d8cef.jpeg",
-    "static/media/profile-5.59113989.jpeg": "/static/media/profile-5.59113989.jpeg",
+    "static/media/lilaugh1.b9281bb3.PNG": "/static/media/lilaugh1.b9281bb3.PNG",
+    "static/media/lilaugh2.d2207041.png": "/static/media/lilaugh2.d2207041.png",
+    "static/media/me.d3a25698.jpg": "/static/media/me.d3a25698.jpg",
     "static/media/trouble1.d893ba4c.jpg": "/static/media/trouble1.d893ba4c.jpg",
     "static/media/trouble2.02d3fee6.PNG": "/static/media/trouble2.02d3fee6.PNG"
   },
@@ -33,6 +35,6 @@
     "static/css/2.fd14a957.chunk.css",
     "static/js/2.6e78c685.chunk.js",
     "static/css/main.845f25d1.chunk.css",
-    "static/js/main.72521957.chunk.js"
+    "static/js/main.94413046.chunk.js"
   ]
 }
