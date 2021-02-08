@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../images/profile-1.jpeg";
+import profileImg from "../images/me.jpg";
 import Typed from "react-typed";
 import Pdf from "../images/MeihuiResume.pdf";
 const AboutMe = () => {

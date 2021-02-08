@@ -16,9 +16,8 @@ import "swiper/components/effect-coverflow/effect-coverflow.scss";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal";
-import { slide1, slide2, slide3 } from "./ImageLink";
 import {FaPaintBrush, FaLightbulb,FaCode} from "react-icons/fa";
-import { tw1, tw2, in1, in2, in3, cor1, cor2, cor3 } from "./ImageLink";
+import { tw1, tw2, in1, in2, in3, cor1, cor2, cor3, bedpic, eggweb, lilpic1, lilpic2 } from "./ImageLink";
 
 SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
 const App = () => {
@@ -83,7 +82,7 @@ const App = () => {
 
   const [slider] = useState([
     {
-      title: "Trouble Boy Movie Poster",
+      title: "Trouble Boy Movie",
       description: "Poster and social media mock ups",
       modalBanner: tw1,
       modalDesc:
@@ -104,53 +103,69 @@ const App = () => {
       description: "Microsite and Web Application",
       modalBanner: in1,
       modalDesc:
-        "Short 7 long long long lopng long lngpwopwedjiq2hn ofjoweihfbnow;kfnw;",
+        "This project is done by 4 students together, we are supposed to think of an idea for the neighbourhood and create the microsite and app for it. In this project, I'm in charge of the coding of microsite. Skills such as HTML/CSS/JS are used.",
       extraPic: [
         {
           imgSrc: in2,
-          desc: "one desc",
+          desc: "About section of microsite",
         },
         {
           imgSrc: in3,
-          desc: "two desc",
+          desc: "Carousel section of microsite",
         },
         
       ],
       url: in1,
     },
     {
-      title: "Product landing page",
-      description: "Face mask, eyelips, lip stick etc..",
+      title: "Cortina Website",
+      description: "Revamp Website",
       modalBanner: cor1,
       modalDesc:
-        "Short 7 long long long lopng long lngpwopwedjiq2hn ofjoweihfbnow;kfnw;",
+        "This project is done during my internship at Onyx Island which we are supposed to revamp the website. So I've worked together with my colleague to come up with this final design. Software such as Sketch is used.",
       extraPic: [
         {
           imgSrc: cor2,
-          desc: "one desc",
+          desc: "Feature Page",
         },
         {
           imgSrc: cor3,
-          desc: "two desc",
+          desc: "Events Page",
         },
         
       ],
       url: cor1,
     },
     {
-      title: "Weather App",
-      description: "Weather lah i dont care",
-      url: slide1,
+      title: "3D Bedroom",
+      description: "Create 3D objects",
+      modalBanner: bedpic,
+      modalDesc:
+        "I chose a picture of a real life bedroom and created out the 3D version of it. Software such as Blender was used.",
+
+      url: bedpic,
     },
     {
-      title: "To-do list",
-      description: "Record down things to do",
-      url: slide1,
+      title: "Egg Web App",
+      description: "Education web application for kids",
+      modalBanner: eggweb,
+      modalDesc:
+        "I picked the topic on Egg and code out the web app. Skills such as HTML/CSS/JS are used.",
+      url: eggweb,
     },
     {
-      title: "To-not-do list",
-      description: "Record down things to do",
-      url: slide1,
+      title: "LiLaugh App",
+      description: "Create an application prototype",
+      modalBanner: lilpic1,
+      modalDesc:
+        "I came up with a toy e-commerce app and created the app's user interface prototype. Software such as Adobe XD is used.",
+      extraPic: [
+        {
+          imgSrc: lilpic2,
+          desc: "LiLaugh App Poster",
+        },
+      ],
+      url: lilpic1,
     },
   ]);
 
